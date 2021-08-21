@@ -215,3 +215,7 @@ class LossyHardSparsifier(nn.Module):
 
 Post training with soft thresholding, hard thresholding will be implemented that makes the values less than the learned thresold to 0.
 
+## 7. Results
+
+The results of the experiments can be found here in the form of mlflow tracked mlruns:
+https://drive.google.com/open?id=1X2W5HCuU8CRk6DLpp4MK9FGcN2763ugN
