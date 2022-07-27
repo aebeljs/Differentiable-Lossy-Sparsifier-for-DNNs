@@ -1,4 +1,4 @@
-# Designing and training with differentiable lossy sparsifier layer
+# Designing and training DNNs with differentiable lossy sparsifier layer
 
 The time and energy consumption for data movement and computation in DNNs can be minimized further by introducing additional sparsity into the activation maps. This project aims to introduce additional sparsity by implementing lossy sparsification layers which are learned dynamically during training into the neural network. Sum of L0 norm values of different output activation maps of sparsifier layers is introduced into the cost function for learnability.
 
